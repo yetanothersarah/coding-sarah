@@ -1,0 +1,125 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Sacramento', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Muli', sans-serif;
+}
+#skills, #work {
+  height: 600px;
+}
+#contact {
+  height: 300px;
+}
+/***** GRID *****/
+#container {
+  width: 100%;
+  margin: auto;
+}
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+.half-width {
+  width: 50%;
+  float: left;
+}
+.third-width {
+  width: 33%;
+  float: left;
+}
+/***** HEADER *****/
+header {
+  height: 400px;
+  background: #f2e7fc;
+  padding: 50px;
+}
+header h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 40pt;
+  font-weight: lighter;
+}
+header h1 span{
+  font-family: 'Sacramento', cursive;
+  font-size: 72pt;
+  font-weight: bold;
+  color: #005b7f;
+}
+header h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 36pt;
+  font-weight: lighter;
+}
+/***** MAIN *****/
+#work, #skills, #contact .full-width {
+  padding: 50px 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+#work h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30pt;
+  margin-left: 50px;
+}
+#work h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 26pt;
+  text-align: center;
+  font-weight: lighter;
+}
+#skills, #work, #contact p {
+  font-family: 'Muli', sans-serif;
+  font-size: 28pt;
+  font-weight: lighter;
+}
+#work p {
+  text-align: center;
+}
+#skills h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30pt;
+  margin-left: 50px;
+}
+#skills {
+  background: #f2e7fc;
+  height: 400px;
+}
+#skills p {
+  text-align: center;
+}
+#contact h2{
+  font-family: 'Comfortaa', cursive;
+  font-size: 30pt;
+  margin-left: 50px;
+}
+#contact p {
+  line-height: 10px;
+  margin-left: 75px;
+}
+#contact ul {
+  list-style: none;
+  margin-left: 75px;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul img {
+  padding-right: 50px;
+}
+footer {
+  clear: both;
+  text-align: center;
+}
+footer p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 14pt;
+  font-weight: lighter;
+}
+footer p span {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  color: #005b7f;
+}
